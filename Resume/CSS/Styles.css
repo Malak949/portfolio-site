@@ -1,0 +1,124 @@
+	
+/* container */
+.container {
+   margin-top: 1em;
+   background:rgba(5, 5, 5, 0.733);
+}
+
+/* Image Logo */
+.img-logo {
+    width: 30%
+}
+
+/* H1 */
+h1 {
+    color: rgb(23, 187, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    text-align:right;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+/* H3 */
+h3 {
+    color: rgb(185, 230, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    text-align:right;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size:20px; 
+} 
+
+/* Hr line color */
+hr {
+    border-top: 2px solid rgb(23, 187, 199);
+}
+
+/* centeral Image */
+.middle-img {
+    width: 100%;  
+}
+
+/* line width */
+.line {
+    width: 100%;
+}
+
+/* a  */
+a {
+    color: #6B889A;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+a:hover {
+    color: rgb(250, 249, 249)   ;
+    text-decoration: underline;
+}
+
+
+.heading {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: rgb(186, 220, 243)  ;
+    text-align: center;
+}
+
+  
+/* this is images class of row in which I display three images*/
+figcaption {
+    color:#e2e1e1;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+}
+
+
+.feature-images {
+    padding-left: 2em;
+    border-bottom: 0.1em solid #bcbbbb;
+}
+
+
+.images {
+    margin-bottom: 1em;
+    
+}
+
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+  
+#sticky-footer {
+    flex-shrink: none;
+}
+
+
+/* Media */
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+
+    h3 {
+        font-size: 2em;
+        min-height: 1em;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .img-logo {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    h1,h2,h3 {
+        width: 100%;
+    }
+}
